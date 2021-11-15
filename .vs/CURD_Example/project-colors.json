@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "56f787b4-2de9-4879-a3d2-cd36e5cacb53": {
+      "ProjectGuid": "56f787b4-2de9-4879-a3d2-cd36e5cacb53",
+      "DisplayName": "CURD_Example",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
