@@ -1,2 +1,2 @@
 # Xamarin_CURD-Operations
-Here all database operations like Add, Update, Fetch, Delete done.
+Here all database operations like Add, Update, Fetch, Delete have been done.
