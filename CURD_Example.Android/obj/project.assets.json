@@ -1548,7 +1548,7 @@
           "lib/monoandroid10.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2196": {
+      "Xamarin.Forms/5.0.0.2244": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Browser": "[1.3.0.6, 1.4.0)",
@@ -1578,6 +1578,22 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.Forms.Visual.Material/5.0.0.2244": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Lifecycle.LiveData": "[2.3.1.1, 2.4.0)",
+          "Xamarin.Google.Android.Material": "[1.4.0.2, 1.5.0)"
+        },
+        "compile": {
+          "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll": {}
+        },
+        "build": {
+          "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets": {}
         }
       },
       "Xamarin.Google.Android.Material/1.4.0.2": {
@@ -3136,10 +3152,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2196": {
-      "sha512": "zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
+    "Xamarin.Forms/5.0.0.2244": {
+      "sha512": "Ssr+0Pf11oHcaMHM4dHXW1NGex0h9uH7gQxuoLtiZcdPtXBli3SXzY3rF9ovp4Bw2mTe7cYpvy554pIpuW6fvA==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2196",
+      "path": "xamarin.forms/5.0.0.2244",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3348,8 +3364,30 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2196.nupkg.sha512",
+        "xamarin.forms.5.0.0.2244.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms.Visual.Material/5.0.0.2244": {
+      "sha512": "JHia1CL2x0Tvdv69yKMQ68PJ39k5BOsQnJpaWuOWs5UIVZX5QKVDX6H3TrQXX/LfxquoN1Y1wZisa6auEwe2tA==",
+      "type": "package",
+      "path": "xamarin.forms.visual.material/5.0.0.2244",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Assets/xamarin_128x128.png",
+        "build/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "buildTransitive/MonoAndroid10/Xamarin.Forms.Visual.Material.targets",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.dll",
+        "lib/MonoAndroid10.0/Xamarin.Forms.Material.pdb",
+        "lib/MonoAndroid10/_._",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Material.pdb",
+        "lib/netstandard1.0/_._",
+        "lib/tizen40/Xamarin.Forms.Material.dll",
+        "lib/tizen40/Xamarin.Forms.Material.pdb",
+        "xamarin.forms.visual.material.5.0.0.2244.nupkg.sha512",
+        "xamarin.forms.visual.material.nuspec"
       ]
     },
     "Xamarin.Google.Android.Material/1.4.0.2": {
@@ -3403,7 +3441,8 @@
     "MonoAndroid,Version=v12.0": [
       "CURD_Example >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2196",
+      "Xamarin.Forms >= 5.0.0.2244",
+      "Xamarin.Forms.Visual.Material >= 5.0.0.2244",
       "sqlite-net-pcl >= 1.8.116"
     ]
   },
@@ -3458,7 +3497,11 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2196, )"
+            "version": "[5.0.0.2244, )"
+          },
+          "Xamarin.Forms.Visual.Material": {
+            "target": "Package",
+            "version": "[5.0.0.2244, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

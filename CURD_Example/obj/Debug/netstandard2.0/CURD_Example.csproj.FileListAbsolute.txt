@@ -2,7 +2,6 @@ E:\StarlandProjects\CURD_Example\CURD_Example\bin\Debug\netstandard2.0\CURD_Exam
 E:\StarlandProjects\CURD_Example\CURD_Example\bin\Debug\netstandard2.0\CURD_Example.dll
 E:\StarlandProjects\CURD_Example\CURD_Example\bin\Debug\netstandard2.0\ref\CURD_Example.dll
 E:\StarlandProjects\CURD_Example\CURD_Example\bin\Debug\netstandard2.0\CURD_Example.pdb
-E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\CURD_Example.csproj.AssemblyReference.cache
 E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\CURD_Example.GeneratedMSBuildEditorConfig.editorconfig
 E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
@@ -20,3 +19,4 @@ E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\XamlC.sta
 E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\CURD_Example.dll
 E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\ref\CURD_Example.dll
 E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\CURD_Example.pdb
+E:\StarlandProjects\CURD_Example\CURD_Example\obj\Debug\netstandard2.0\CURD_Example.csproj.AssemblyReference.cache

@@ -8,7 +8,7 @@ namespace CURD_Example.ViewModels
 {
     public class AddProductViewModel : BaseProductViewModel
     {
-        public Command SaveCommand { get; }
+        public Command SaveCommand { get; } 
         public Command CancelCommand { get; }
         public AddProductViewModel()
         {
@@ -24,6 +24,7 @@ namespace CURD_Example.ViewModels
         {
             var product = ProductInfo;
             await App.ProductService.AddProductAsync(product);
+
             await Shell.Current.GoToAsync("..");
         }
 

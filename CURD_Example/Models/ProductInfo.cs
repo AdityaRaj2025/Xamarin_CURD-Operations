@@ -9,8 +9,8 @@ namespace CURD_Example.Models
     {
         [PrimaryKey, AutoIncrement]
         public int ProductId { get; set; }
-        public int ProductName { get; set; }
-        public int Description { get; set; }
-        public int ImageUrl { get; set; }
+        public string ProductName { get; set; }
+        public string Description { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

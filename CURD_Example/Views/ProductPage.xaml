@@ -10,7 +10,7 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <RefreshView x:DataType="local:ProductViewModel" Command="{Binding LoadProductCommand}" IsRefreshing="{Binding IsBusy,Mode=OneWay}">
+            <RefreshView x:DataType="local:ProductViewModel" Command="{Binding LoadProductCommand}" IsRefreshing="{Binding IsBusy,Mode=OneWay}" >
                 <CollectionView ItemsSource="{Binding ProductInfos}" SelectionMode="None">
                     <CollectionView.EmptyView>
                         <StackLayout>
@@ -27,7 +27,7 @@
                                             <SwipeItem IsDestructive="True" Text="Close" BackgroundColor="Green"/>
                                         </SwipeItems>
                                     </SwipeView.RightItems>
-                                </SwipeView>
+                               
                                 <Grid Padding="5">
                                     <Frame CornerRadius="10" HasShadow="True">
                                         <StackLayout Orientation="Horizontal">
@@ -46,6 +46,7 @@
                                         </StackLayout>
                                     </Frame>
                                 </Grid>
+                                </SwipeView>
                             </StackLayout>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>

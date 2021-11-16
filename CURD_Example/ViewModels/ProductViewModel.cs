@@ -72,7 +72,7 @@ namespace CURD_Example.ViewModels
             {
                 return;
             }
-            await Navigation.PushAsync(new AddProductPage(prod));
+            await App.ProductService.DeleteProductAsync(prod.ProductId);
             await ExecuteLoadProductCommand();
         }
         private  void ClearProduct()

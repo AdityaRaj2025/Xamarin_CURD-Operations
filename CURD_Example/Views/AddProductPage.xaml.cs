@@ -28,7 +28,7 @@ namespace CURD_Example.Views
 
             if(ProductInfo != null)
             {
-                _ = ((AddProductViewModel)BindingContext);
+                 ((AddProductViewModel)BindingContext).ProductInfo=ProductInfo;
             }
         }
     }
